@@ -1,0 +1,46 @@
+/*!
+ * Template
+ */
+
+/* Global Styles */
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    padding-top: 50px;
+}
+
+
+
+
+/* Footer Styles */
+
+footer {
+	background-color: black;
+	padding-top: 20px;
+	 position: fixed;
+	 bottom: 0;
+	  width: 100%;
+}
+
+/* Responsive Styles */
+
+@media(max-width:991px) {
+    .customer-img,
+    .img-related {
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:767px) {
+    .img-portfolio {
+        margin-bottom: 15px;
+    }
+
+    header.carousel .carousel {
+        height: 70%;
+    }
+}
